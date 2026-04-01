@@ -30,3 +30,8 @@ div{
 img{
     width: 250px;
 }
+hr{
+    border: none;
+    height: 1px;
+    background-color: #8C3D01;
+}
