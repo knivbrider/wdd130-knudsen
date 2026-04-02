@@ -9,6 +9,28 @@ body{
     color: #8C3D01;
     background-color: #ffeca7;
     }
+header img{
+    width: 200px;
+    text-align: center;
+    }
+nav{
+    text-align: center;
+    display: flex;
+    justify-self: center;
+}
+h2{
+    font-size: 50px;
+    margin: 100px;
+}
+nav a{
+    text-decoration: none;
+    background-color: #8C3D01;
+    color: #face6d;
+    padding: 20px 100px;
+}
+nav a:hover{
+    background-color: #0f2743;
+}
 h3{
     font-family: "EB Garamond";
     font-size: 25px;
@@ -34,4 +56,11 @@ hr{
     border: none;
     height: 1px;
     background-color: #8C3D01;
+}
+
+footer{
+    display: flex;
+}
+footer p{
+    padding: 50px 20px;
 }
