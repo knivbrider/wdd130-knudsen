@@ -30,7 +30,8 @@ a:hover {
 
 #logo {
     grid-column: 1/2;
-    width: 100%;
+    max-height: 150px;
+    place-self: center;
 }
 
 #current-page-link {
@@ -43,4 +44,33 @@ a:hover {
 
 #third-page-link {
     grid-column: 3/4;
+}
+
+footer {
+    display: grid;
+    background-color: #8C3D01;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer p {
+    color: #FACE6D;
+    max-height: 100px;
+}
+
+#left-foot {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+    align-items: center;
+}
+
+#right-foot {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px;
+    text-align: right;
+}
+
+body {
+    background-color: #FFECA7;
 }
