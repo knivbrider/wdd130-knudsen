@@ -39,7 +39,7 @@ nav a:hover {
 }
 
 body {
-    width: 60%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
     font-family: "Baskervville", serif;
@@ -83,19 +83,29 @@ img {
 
 footer {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: repeat(2, auto);
     background-color: #8C3D01;
+    grid-template-columns: 1fr 1fr;
     border: 5px solid #0f2743;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 footer p {
-    color: #face6d;
+    color: #FACE6D;
+    max-height: 100px;
 }
 
-.client {
-    justify-self: left;
-    margin-left: 5px;
+#left-foot {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+    align-items: center;
+    justify-content: left;
+}
+
+#right-foot {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px;
+    text-align: right;
 }
